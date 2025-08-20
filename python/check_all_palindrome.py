@@ -9,7 +9,7 @@ def is_palindrome(word):
 
 def check_all_palindrome(arr):
 	for word in arr:
-		if is_palindrome(word) == False:
+		if not is_palindrome(word):
 			return False
 
 	return True
